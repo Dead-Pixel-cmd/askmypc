@@ -1,0 +1,8 @@
+2025-07-04 10:45:44.251363: Get-Process
+[2025-07-04 10:49:49] [Success] Get-Process -IncludeUserName | Where-Object { $_.UserName -eq "$env:USERDOMAIN\$env:USERNAME" }
+[2025-07-04 10:54:07] [Success] Get-Volume
+[2025-07-04 18:31:01] [Success] Get-Process
+[2025-07-04 18:33:58] [Success] Get-Process
+[2025-07-04 18:35:45] [Success] $env:Path -split ';'
+[2025-07-04 18:38:58] [Success] rundll32.exe user32.dll,LockWorkStation
+[2025-07-04 18:43:35] [Success] rundll32.exe user32.dll,LockWorkStation
